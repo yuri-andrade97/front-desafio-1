@@ -23,6 +23,7 @@ header {
     padding-left: 140px;
     padding-right: 169px;
     height: 70px;
+    width: 100%;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.12);
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -55,11 +56,14 @@ header {
 
 .middle {
     grid-area: middle;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "conteudo ads";
 }
 
 .content {
     margin: 56px 56px 64px 140px;
+    grid-area: conteudo;
 }
 
 .post {
@@ -137,6 +141,7 @@ header {
     background-color: #FFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+    grid-area: ads;
 }
 
 .input-pesquisa {
