@@ -1,5 +1,5 @@
 $dark-grey: #545454;
-$ligh-grey: #929292;
+$light-grey: #929292;
 $background: #e5e5e5;
 $publi-grey: #eee;
 $pink: #fe0078;
@@ -24,9 +24,14 @@ h3 {
   font-size: 1.8rem;
   color: #000;
 }
+h4 {
+  font-size: 1.8rem;
+  color: #000;
+}
 li,
 p,
-a {
+a,
+label {
   font-size: 1.4rem;
   text-decoration: none;
   color: $dark-grey;
@@ -35,3 +40,7 @@ a {
 
 @import 'nav';
 @import 'main';
+@import 'aside';
+@import 'post-comments';
+@import 'contato';
+@import 'footer';

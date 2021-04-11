@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/symbol.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>logoipsum&#174;</title>
+  </head>
+  <body>
+    <nav>
+      <img src="../assets/logo.svg" alt="logo logoipsum" />
+      <ul class="div-nav">
+        <li class="item-nav"><a href="../index.html">Início</a></li>
+        <li class="item-nav"><a href="../pages/sobre.html">Sobre</a></li>
+        <li class="item-nav"><a href="../pages/contato.html">Contato</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="posts">
+        <article class="post-preview contato">
+          <h2 class="post-title">Contato</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            maximus quis augue elementum vestibulum. Nam a orci erat. Aenean
+            arcu mauris, finibus a rutrum quis, commodo sollicitudin nibh. Morbi
+            diam lacus, suscipit nec maximus et, tincidunt at quam.
+          </p>
+          <h4>INFORMAÇÕES PARA CONTATO</h4>
+          <div>
+            <img src="../assets/localizacao.svg" alt="pinpoint" />Endereço
+          </div>
+          <p>
+            Av. Tancredo Neves, 2227, Ed. Salvador Prime Caminho das Árvores,
+            Salvador • Bahia
+          </p>
+          <div><img src="../assets/telefone.svg" alt="telefone" />Telefone</div>
+          <p>(71) 9 9999-9999 | (11) 1 1111-1111</p>
+          <div><img src="../assets/headset.svg" alt="telefone" />Suporte</div>
+          <form class="post-comments" action="GET">
+            <h2 class="post-title">ENTRE EM CONTATO</h2>
+            <div>
+              <section>
+                <label for="name">Nome</label>
+                <input type="text" name="nome" id="name" />
+              </section>
+              <section>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" />
+              </section>
+            </div>
+            <div>
+              <label for="assunto">Assunto</label>
+              <input type="text" name="assunto" id="assunto" />
+            </div>
+            <div>
+              <label for="comments">Comentário</label>
+              <textarea
+                name="comments"
+                id="commnets"
+                cols="17"
+                rows="17"
+              ></textarea>
+            </div>
+            <div class="btn-open">
+              <button type="submit">Comentar</button>
+            </div>
+          </form>
+        </article>
+      </div>
+      <aside class="menu">
+        <form action="" class="post-search">
+          <label for="post-search" style="display: none">Pesquisar post</label>
+          <input
+            type="search"
+            name="post-search"
+            id="post-search"
+            placeholder="Pesquise aqui..."
+          />
+        </form>
+        <section class="menu-cats">
+          <h2 class="menu-topic">Categorias</h2>
+          <ul>
+            <li class="cats">
+              Tecnologia
+              <span class="cats-quant">25</span>
+            </li>
+            <li class="cats">
+              Estilo de vida <span class="cats-quant">8</span>
+            </li>
+            <li class="cats">Arte <span class="cats-quant">2</span></li>
+            <li class="cats">Comida <span class="cats-quant">12</span></li>
+            <li class="cats">Aventura <span class="cats-quant">9</span></li>
+            <li class="cats">Moda <span class="cats-quant">12</span></li>
+          </ul>
+        </section>
+        <section class="publi">
+          <h2 class="menu-topic">Publicidade</h2>
+          <div class="publi">320 x 240</div>
+          <div class="publi">320 x 240</div>
+          <div class="publi">320 x 240</div>
+        </section>
+      </aside>
+    </main>
+    <footer>Copyright ©2020 Todos os direitos reservados | by Fulano</footer>
+  </body>
+</html>

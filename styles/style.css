@@ -22,9 +22,15 @@ h3 {
   color: #000;
 }
 
+h4 {
+  font-size: 1.8rem;
+  color: #000;
+}
+
 li,
 p,
-a {
+a,
+label {
   font-size: 1.4rem;
   text-decoration: none;
   color: #545454;
@@ -84,6 +90,23 @@ main {
   line-height: 1.9rem;
 }
 
+.post-preview .post-list {
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+
+.post-preview ul {
+  padding-left: 4.8rem;
+}
+
+.post-preview li {
+  list-style-type: disc;
+}
+
+.post-preview .sub-list {
+  list-style-type: circle;
+}
+
 .post-preview .post-data {
   font-size: 1.2rem;
   color: #929292;
@@ -106,5 +129,152 @@ main {
 .post-preview .open-post:hover {
   background-color: #fe0078;
   color: #fff;
+}
+
+aside {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  max-height: 130rem;
+}
+
+.post-search {
+  margin: 2rem;
+}
+
+.post-search input {
+  width: 340px;
+  height: 52px;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  padding: 16.5px 218px 16.5px 20px;
+}
+
+.post-search input:focus, .post-search input:hover, .post-search input:active {
+  border: 1px solid #fe0078;
+}
+
+.menu-cats {
+  margin: 0 2rem;
+}
+
+.menu-cats li {
+  display: flex;
+  padding-bottom: 1.6rem;
+  border-bottom: 2px dashed #eee;
+}
+
+.menu-cats li:hover {
+  color: #fe0078;
+}
+
+.menu-cats .cats-quant {
+  font-size: 1.4rem;
+  margin-left: auto;
+  padding-right: 1.8rem;
+}
+
+.menu-topic {
+  border-left: 2px solid #fe0078;
+  padding-left: 1.1rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin: 2.5rem 0;
+}
+
+.publi {
+  margin: 0 2rem;
+}
+
+.publi div {
+  width: 32rem;
+  height: 24rem;
+  background-color: #eee;
+  font-size: 3.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3.2rem;
+  flex-shrink: 1;
+}
+
+.post-comments {
+  display: flex;
+  flex-direction: column;
+  padding-right: 4.7rem;
+}
+
+.post-comments div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-comments section {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-comments label {
+  margin-bottom: 0.8rem;
+}
+
+.post-comments input {
+  height: 4.2rem;
+  width: 35rem;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin-bottom: 2.4rem;
+}
+
+.post-comments input:hover, .post-comments input:focus, .post-comments input:active {
+  border: 1px solid #fe0078;
+}
+
+.post-comments .btn-open {
+  display: flex;
+  justify-content: right;
+}
+
+.post-comments textarea {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin-bottom: 4.8rem;
+}
+
+.post-comments button {
+  font-size: 1.4rem;
+  padding: 1.2rem 2.4rem;
+  border-radius: 2rem;
+  border: 1px solid #fe0078;
+  margin-bottom: 2.4rem;
+  background-color: #fe0078;
+  color: #fff;
+}
+
+.contato p {
+  color: #000;
+}
+
+.contato div,
+.contato h4 {
+  margin: 0.8rem 2.4rem;
+  font-size: 1.4rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+  color: #fff;
+  padding: 2.6rem 0;
+  font-size: 1.4rem;
 }
 /*# sourceMappingURL=style.css.map */
