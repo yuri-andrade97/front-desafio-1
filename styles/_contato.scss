@@ -28,11 +28,17 @@
 .post-title {
   font-size: 1.6rem;
 }
-.post-comments {
-  padding: 2rem;
+
+#contato-form {
+  padding: 0 2.4rem;
   input {
     border: 1px solid #eeeeee;
     border-radius: 2px;
+    &:hover,
+    &:focus,
+    &:active {
+      border: 1px solid $pink;
+    }
   }
   #contato-name,
   #contato-email {
@@ -46,10 +52,20 @@
       width: 68rem;
       border: 1px solid #eeeeee;
       border-radius: 2px;
+      &:hover,
+      &:focus,
+      &:active {
+        border: 1px solid $pink;
+      }
     }
     textarea {
       border: 1px solid #eeeeee;
       border-radius: 2px;
+      &:hover,
+      &:focus,
+      &:active {
+        border: 1px solid $pink;
+      }
     }
   }
 }
