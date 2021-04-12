@@ -60,6 +60,7 @@ nav a {
 main {
   padding: 0 14rem;
   display: flex;
+  justify-content: center;
 }
 
 .post-preview {
@@ -258,14 +259,67 @@ aside {
   color: #fff;
 }
 
-.contato p {
-  color: #000;
+.contato h2 {
+  margin-bottom: 2.4rem;
 }
 
-.contato div,
-.contato h4 {
-  margin: 0.8rem 2.4rem;
+.contato p {
+  color: #000;
+  margin-bottom: 2.4rem;
+}
+
+.contato div {
+  margin: 0.8rem 0;
   font-size: 1.4rem;
+}
+
+.infos div {
+  padding: 0.7rem 2rem;
+  display: flex;
+  font-weight: 700;
+}
+
+.infos img {
+  margin-right: 0.8rem;
+}
+
+.infos h4 {
+  margin-left: 2rem;
+}
+
+.post-title {
+  font-size: 1.6rem;
+}
+
+.post-comments {
+  padding: 2rem;
+}
+
+.post-comments input {
+  border: 1px solid #eeeeee;
+  border-radius: 2px;
+}
+
+.post-comments #contato-name,
+.post-comments #contato-email {
+  margin-right: 2.4rem;
+  width: 33rem;
+}
+
+.post-comments .assunto {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-comments .assunto input {
+  width: 68rem;
+  border: 1px solid #eeeeee;
+  border-radius: 2px;
+}
+
+.post-comments .assunto textarea {
+  border: 1px solid #eeeeee;
+  border-radius: 2px;
 }
 
 footer {

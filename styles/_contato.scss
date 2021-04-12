@@ -1,11 +1,55 @@
 .contato {
+  h2 {
+    margin-bottom: 2.4rem;
+  }
   p {
     color: #000;
+    margin-bottom: 2.4rem;
   }
 
-  div,
-  h4 {
-    margin: 0.8rem 2.4rem;
+  div {
+    margin: 0.8rem 0;
     font-size: 1.4rem;
+  }
+}
+.infos {
+  div {
+    padding: 0.7rem 2rem;
+    display: flex;
+    font-weight: 700;
+  }
+  img {
+    margin-right: 0.8rem;
+  }
+  h4 {
+    margin-left: 2rem;
+  }
+}
+.post-title {
+  font-size: 1.6rem;
+}
+.post-comments {
+  padding: 2rem;
+  input {
+    border: 1px solid #eeeeee;
+    border-radius: 2px;
+  }
+  #contato-name,
+  #contato-email {
+    margin-right: 2.4rem;
+    width: 33rem;
+  }
+  .assunto {
+    display: flex;
+    flex-direction: column;
+    input {
+      width: 68rem;
+      border: 1px solid #eeeeee;
+      border-radius: 2px;
+    }
+    textarea {
+      border: 1px solid #eeeeee;
+      border-radius: 2px;
+    }
   }
 }
