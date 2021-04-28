@@ -39,12 +39,11 @@ nav {
     list-style: none;
     width: 233px;
     justify-content: space-between;
-
 }
 
 .navegacao ul li a {
     all: unset;
-    color: black;
+    color: #545454;
     cursor: pointer;
 }
 
@@ -127,6 +126,14 @@ button a {
     color: #222
 }
 
+button:hover{
+    background-color: #FE0078;
+}
+
+button a:hover {
+    color: white;
+}
+
 
 /* FIM CONTEUDO PRINCIPAL*/
 
@@ -149,12 +156,20 @@ aside input {
     padding: 10px;
 }
 
+input:hover, input:focus {
+    border-color: #FE0078;
+}
+
 .categoria {
     display: flex;
     flex-direction: column;
     width: 360px;
     margin: 0 10px 0 11px;
     
+}
+
+.categoria ul li {
+    color: #545454;
 }
 
 .borda-left {
@@ -174,12 +189,22 @@ aside input {
 }
 
 .categoria ul li {
-    display: flex;
-    justify-content: space-between;
     width: 340px;
     padding: 25px 5px;
     list-style: none;
     border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+}
+
+.categoria ul li a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #545454;
+}
+
+.categoria ul li a:hover {
+    color: #FE0078;
+    border-color: #FE0078;
 }
 
 .anuncio {
@@ -190,21 +215,28 @@ aside input {
 }
 
 .publicidades {
-    background-color: #f2f2f2;
+    background-color: #EEEEEE;
     margin: 32px 20px;
     width: 340px;
     height: 240px;
-    text-align: center;
-    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #545454;
+    font-size: 30px;
 }
 
 
-
+/* Rodapé */
 footer {
     min-width: 100vw;
+    height: 70px;
     background-color: #222222;
     color: white;
     display: flex;
     flex-grow: 1;
-}
 
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+}
