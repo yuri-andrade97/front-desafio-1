@@ -1,5 +1,4 @@
 * {
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -100,6 +99,9 @@ section .paragrafo {
     font-size: 14px;
 }
 
+.paragrafo ul li {
+    line-height: 30px;
+}
 .button {
     display: flex;
     justify-content: flex-end;
@@ -250,6 +252,10 @@ footer {
     margin-bottom: 24px;
 }
 
+.formulario input:focus {
+    border-color: #FE0078   ;
+}
+
 label {
     display: block;
     width: 100%;
@@ -287,6 +293,14 @@ textarea {
     width: 100%;
 }
 
+.input input:focus {
+    outline-color: #FE0078;
+}
+
+.input textarea:focus {
+    outline-color: #FE0078;
+}
+
 .button2 {
     all: unset;
     background-color: #FE0078;
@@ -303,6 +317,8 @@ textarea {
     width: 50px;
     display: inline-block;
     margin-top: 44px;
+    color: white;
+    font-weight: bold;
 }
 
 
